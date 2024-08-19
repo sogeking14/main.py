@@ -1,0 +1,5 @@
+homework_count=12
+watch_count=1.5
+course_name="Python"
+Time_per_task=(watch_count/homework_count)
+print('Курс:',course_name,',всего задач:',homework_count, ',затрачено часов:',watch_count, ',среднее время выполнения', Time_per_task,'часа.')
