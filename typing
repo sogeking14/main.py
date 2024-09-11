@@ -1,0 +1,8 @@
+name = "patax"
+print("name:",name)
+age = 22
+print("age:", age)
+New_age = age + 5
+print("New age:", New_age)
+is_student = True
+print("is_student:", is_student)
