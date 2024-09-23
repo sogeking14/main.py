@@ -1,0 +1,9 @@
+immutable_var=(555,'gdm',True,18,8)
+print('Immutable tuple:',immutable_var)
+#immutable_var[0]= 200
+#элементы кортежа неизменяемые, он не поддерживает обращение по элементам.
+mutable_list = [5,541,'line', False]
+mutable_list.extend(['usop',3.14])
+mutable_list[1]=41
+print('mutable list:',mutable_list)
+
