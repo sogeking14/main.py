@@ -1,0 +1,21 @@
+
+#Словари
+
+my_dict={'patax':89970986512,'shamil':56678512,'ffq156':5698}
+print(my_dict)
+print(my_dict['patax'])
+print(my_dict.get('Alex'))
+my_dict.update({'Алексей':20001223, 'Марат': 19970412})
+a=my_dict.pop('patax')
+print(a)
+print(my_dict)
+
+#Множества
+
+my_set={44,541,223,44,541,'milena',(3,3,2),'milena'}
+print(my_set)
+my_set.add(21)
+my_set.add(12)
+print(my_set)
+my_set.discard(44)
+print(my_set)
